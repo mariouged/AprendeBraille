@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">Aprende Braille</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="actionSettings">Ajustes</string>
+
+    <string name="alphabet">Alfabeto</string>
+    <string name="alphabetDescription">Alfabeto Braille, todo el abecedario</string>
+    <string name="exercises">Ejercicios</string>
+
+    <string name="characters">Caracteres</string>
+    <string name="charactersExercises">Ejercicios de letras</string>
+    <string name="charactersExercisesDescription">Ejercicios de letras, test de primer nivel, consiste en un test dónde se muestra una letra en Braille y hay que introducir la letra leida</string>
+    <string name="title_activity_characters_exercises">Ejercicios de letras</string>
+
+    <string name="title_activity_exercises">Ejercicios</string>
+    <string name="ask_label">Pregunta</string>
+    <string name="answerDescription">Introduce el texto que has leido arriba</string>
+    <string name="next">Siguiente</string>
+    <string name="nextContinue">Continuar</string>
+    <string name="nextDescription">Pulsa siguiente para comprobar y continuar</string>
+    <string name="answerSuccess">Bien, siguiente</string>
+    <string name="answerError">Mal no pasa nada, continúa</string>
+
+    <string name="title_activity_alphabet">Alfabeto</string>
+    <string name="wordExercises">Ejercicios de palabras</string>
+    <string name="wordExercisesDescription">Ejercicios de palabras, test de segundo nivel, test de palabras en Braille, debes leer e introducir la palabra</string>
+    <string name="title_activity_word_exercises">Ejercicios de palabras</string>
+    <string name="word_label">Palabra</string>
+    <string name="check">Comprobar</string>
+    <string name="result">Resultados</string>
+    <string name="phraseExercises">Ejercicios de frases</string>
+    <string name="phraseExercisesDescription">Ejercicios de frases, test de tercer nivel, introduce la frase que has leído en Braille</string>
+    <string name="title_activity_phrase_exercises">Ejercicios de frases</string>
+    <string name="title_activity_characters">Test caracteres ascii</string>
+    <string name="actionHelp">Ayuda</string>
+    <string name="actionAlphabet">Alfabeto</string>
+    <string name="title_activity_results_exercises">Resultados del ejercicio</string>
+    <string name="okLabel">Correctas</string>
+    <string name="failLabel">Falladas</string>
+    <string name="review">Repasar los siguientes caracteres</string>
+    <string name="resulNoErrors">No has cometido ningún fallo, pasa al siguiente nivel</string>
+    <string name="testFont">test font</string>
+    <string name="sdk_dialog_message">Versión de android no soportada</string>
+    <string name="sdk_dialog_title">API version</string>
+    <string name="phrase">Frase</string>
+    <string name="character">Letra</string>
+    <string name="number">Número</string>
+    <string name="timeLabel">Tiempo</string>
+    <string name="bestTimeLabel">Mejor</string>
+    <string name="title_activity_help">Ayuda</string>
+    <string name="mainParagraph">
+        \nAprende Braille.
+        \nLa mejor manera de aprender es practicando.
+        \nVersion 1.7
+        \n
+        \nPOLÍTICA DE PRIVACIDAD DE APRENDE BRAILLE APP ANDROID
+        \nNo requiere ningún permiso, no se recoge ni se envía ninguna información del usuario ni del dispositivo.
+        \nLa política de privacidad es pública en el siguiente enlace: https://raw.githubusercontent.com/mariouged/com.comoelagua.android.braille/master/politica-privacidad
+        \nNo se envía ninguna información a internet, ni a servidores propios ni de terceros.
+        \n
+        \nEl sistema Braille es un alfabeto, apartir del signo generador
+        \n1 4
+        \n2 5
+        \n3 6
+        \n
+        \nA partir de estos seis puntos se pueden generar 63 combinaciones para representar las letras del abecedario.
+        \nPor ejemplo la f sería
+        \n1 4
+        \n2
+        \n
+        \n
+        \nPor ejemplo la m sería
+        \n1 4
+        \n
+        \n3
+        \n
+        \nRepasa todo el abecedario pulsando el botón alfabeto o en el menú alfabeto.
+        \n
+        \n
+        \nPOLÍTICA DE PRIVACIDAD DE APRENDE BRAILLE APP ANDROID
+        \nNo requiere ningún permiso, no se recoge ni se envía ninguna información del usuario ni del dispositivo.
+        \nNo se recolecta ningún dato personal.
+        \nNo se envía ninguna información a internet, ni a servidores propios ni de terceros.
+        \n
+        \nEsta política de privacidad simplemente te informa que esta app
+        \nno recolecta información personal ni del dispositivo
+        \ny que no se envía ninguna información a internet,
+        \nni a servidores propios ni de terceros.
+        \nNo requiere conexión a internet, ni ningún permiso.
+        \nSimplemente la app intenta que puedas apreder braille fácilmente
+        \ny tengas una chuleta Braille a mano por si fuera necesario.
+        \n
+        \nLa política de privacidad es pública en el siguiente enlace: https://raw.githubusercontent.com/mariouged/com.comoelagua.android.braille/master/politica-privacidad
+        \ny el usuario puede leerla en la pantalla principal
+        \nNo se recoge ni transmite ningún datos de caracter personal, ni dispositivo , ni sensible y tampoco se comparten con ningún tercero.
+    </string>
+    <string name="helpParagraph">
+        \nAprende Braille.
+        \nLa mejor manera de aprender es practicando.
+        \nVersion 1.7
+        \n
+        \nPrimero repasa el alfabeto, haz ejercicios de letras para practicar y aprenderlas todas.
+        Con los ejercicios de palabras terminarás de aprender el alfabeto.
+        Para el nivel más avanzado haz ejercicios de frases.
+        \n
+        \nEl sistema Braille es un alfabeto, apartir del signo generador
+        \n1 4
+        \n2 5
+        \n3 6
+        \n
+        \nA partir de estos seis puntos se pueden generar 63 combinaciones para representar las letras del abecedario.
+        \nPor ejemplo la f sería
+        \n1 4
+        \n2
+        \n
+        \n
+        \nPor ejemplo la m sería
+        \n1 4
+        \n
+        \n3
+        \n
+        \nRepasa todo el abecedario pulsando el botón alfabeto o en el menú alfabeto.
+        \n
+        \nTambién hay ejercicios de números, los números del 1 al 0, coinciden con las letras de la a hasta la j.
+        \nPero llevan delante el signo 3 4 5 6.
+        \n  4
+        \n  5
+        \n3 6
+        \n
+        \nLamentandolo mucho sólo sirve para que aprendan personsa que ven con los ojos: profesores, amigos, familiares, ...
+        \n"Los ciegos también ven, pero con las manos y los oídos"
+        \nLa aplicación es accesible, con descripciones para los textos, botones, ...
+        Activa el servicio TalkBack y podrás acceder a una descripción de cada elemento.
+        \n
+        \nTienes disponibles mensajes de voz cuando aciertas o fallas
+         en una pregunta, por defecto algunos están desactivados, les puedes configurarlos
+         en el menú Ajustes.
+        \n
+        \nPor el momento:
+        \n- No se utilizan mayúsculas.
+        \n- Solo en Español
+        \n
+        \nLa aplicación, contiene el alfabeto braille en Español.
+        Permite realizar ejercicios de letras, números, palabras y frases.
+        Son test de preguntas, en las que se debe leer en braille e introducir la respuesta.
+        Al finalizar el ejercicio se mostrarán las correctas, falladas, tiempo empleado
+        , mejor tiempo y las letras que hay que repasar.
+        \n
+        \nNo requiere ningún permiso, no se recoge ni se envía ninguna información del usuario.
+        \n
+        \nPuedes usarla en cualquier momento
+        \n, no necesita conexión a internet por lo que no te consumirá datos.
+        \n
+    </string>
+    <string name="phraseExample">El perro de san roque no tiene rabo porque Ramón Ramirez se lo ha cortado</string>
+    <string name="title_activity_numbers_exercises">Ejercicios de números</string>
+    <string name="numbersExercises">Ejercicios de números</string>
+    <string name="numbersExercisesDescription">Ejercicios de números, otro test de primer nivel, consiste en un ejercicio dónde se muestra un número en Braille y hay que introducir el número leído</string>
+    <string name="number_label">Número</string>
+    <string name="answerNumberDescription">Introduce el número que has leido arriba</string>
+    <string name="prefCategorySpeechTitle">HABLA</string>
+    <string name="prefSpeechOnAnswerOk">Hablar en respuesta correta</string>
+    <string name="prefSpeechOnAnswerOkSum">Reproduce por voz el mensaje: Bien</string>
+    <string name="prefSpeechOnAnswerFail">Hablar en respuesta fallada</string>
+    <string name="prefSpeechOnAnswerFailSum">Reproduce por voz el mensaje: Error</string>
+    <string name="title_activity_settings">Ajustes</string>
+</resources>

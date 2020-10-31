@@ -1,0 +1,113 @@
+package com.comoelagua.android.braille.model.beans;
+
+import androidx.appcompat.app.AppCompatActivity;
+import android.content.SharedPreferences;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class ResultExercise implements Serializable {
+
+    protected String wordType;
+    protected int okCount;
+    protected int failCount;
+    protected List<String> charactersErrorsList;
+    protected Date begin;
+    protected Date end;
+    protected long bestTimeValue;
+
+    public final static String WORD_TYPE = "word";
+    public final static String PHRASE_TYPE = "phrase";
+    public final static String CHARACTER_TYPE = "character";
+    public final static String NUMBER_TYPE = "number";
+
+    public final static String WORD_BEST_TIME_VALUE = "wordBestTimeValue";
+    public final static String PHRASE_BEST_TIME_VALUE = "phraseBestTimeValue";
+    public final static String CHARACTER_BEST_TIME_VALUE = "characterBestTimeValue";
+    public final static String NUMBER_BEST_TIME_VALUE = "numberBestTimeValue";
+
+    public ResultExercise() {
+        setWordType(WORD_TYPE);
+        this.okCount = 0;
+        this.failCount = 0;
+        charactersErrorsList = new ArrayList<>();
+        begin = new Date();
+    }
+
+    public void finish(int okCount, int failCount, AppCompatActivity appCompatActivity) {
+        this.okCount = okCount;
+        this.failCount = failCount;
+        end = new Date();
+        bestTimeValue = saveBestTime(appCompatActivity);
+    }
+
+    public int getOkCount() {
+        return okCount;
+    }
+
+    public int getFailCount() {
+        return failCount;
+    }
+
+    public void addCharacterError(String character) {
+        charactersErrorsList.add(character);
+    }
+
+    public void addAllcharactersErrorsList(List charactersErrorsList) {
+        for (Object item : charactersErrorsList) {
+            String characterError = (String) item;
+            boolean duplicate = false;
+            for (String previous : this.charactersErrorsList) {
+                if (previous.equals(characterError)) {
+                    duplicate = true;
+                    break;
+                }
+            }
+            if (!duplicate) {
+                this.charactersErrorsList.add(characterError);
+            }
+        }
+        //this.charactersErrorsList.addAll(charactersErrorsList);
+    }
+
+    public List<String> getCharactersErrorsList() {
+        return charactersErrorsList;
+    }
+
+    public long getTime() {
+        return end.getTime() - begin.getTime();
+    }
+
+    public String getWordType() {
+        return wordType;
+    }
+
+    public void setWordType(String wordType) {
+        this.wordType = wordType;
+    }
+
+    protected long saveBestTime(AppCompatActivity appCompatActivity) {
+        String namePreference = WORD_BEST_TIME_VALUE;
+        if ("phrase".equals(getWordType())) {
+            namePreference = PHRASE_BEST_TIME_VALUE;
+        } else if ("character".equals(getWordType())) {
+            namePreference = CHARACTER_BEST_TIME_VALUE;
+        } else if ("number".equals(getWordType())) {
+            namePreference = NUMBER_BEST_TIME_VALUE;
+        }
+        SharedPreferences preferences = appCompatActivity.getSharedPreferences(namePreference, 0);
+        long bestTimeValue = preferences.getLong(namePreference, 9999999);
+        if (bestTimeValue > getTime()) {
+            SharedPreferences.Editor editor = preferences.edit();
+            editor.putLong(namePreference, getTime());
+            editor.commit();
+            bestTimeValue = getTime();
+        }
+        return bestTimeValue;
+    }
+
+    public long getBestTimeValue() {
+        return bestTimeValue;
+    }
+}
