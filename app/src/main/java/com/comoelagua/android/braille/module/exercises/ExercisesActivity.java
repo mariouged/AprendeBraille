@@ -56,6 +56,7 @@ public abstract class ExercisesActivity extends AppCompatActivity implements Exe
     protected EditText answerEditText;
     protected Button nextButton;
     protected TextToSpeech textToSpeech;
+    protected int textToSpeechStatus;
     protected HashMap<String, String> hashAlarm;
     protected ArrayList<WordInterface> wordsList;
     protected WordInterface currentWord;
@@ -199,19 +200,22 @@ public abstract class ExercisesActivity extends AppCompatActivity implements Exe
                 if(status != TextToSpeech.ERROR) {
                     textToSpeech.setLanguage( Locale.getDefault() );
                 }
+                textToSpeechStatus = status;
             }
         });
-        hashAlarm = new HashMap();
-        hashAlarm.put(
-            TextToSpeech.Engine.KEY_PARAM_STREAM,
-                String.valueOf(AudioManager.STREAM_ALARM)
-        );
     }
 
     protected void speech(int rsid, String msg) {
-        msg = (rsid > 0) ? getResources().getString(rsid) : (null != msg) ? msg : "No has message";
-
-        textToSpeech.speak(msg, TextToSpeech.QUEUE_FLUSH, hashAlarm);
+        if (textToSpeechStatus != TextToSpeech.SUCCESS) {
+            return;
+        }
+        String text = (rsid > 0) ? getResources().getString(rsid) : (null != msg) ? msg : "";
+        if (text.isEmpty()) {
+            return;
+        }
+        Bundle alarmBundle = new Bundle();
+        alarmBundle.putString(TextToSpeech.Engine.KEY_PARAM_STREAM, String.valueOf(AudioManager.STREAM_ALARM));
+        textToSpeech.speak(text, TextToSpeech.QUEUE_FLUSH, alarmBundle, null);
     }
 
 }
