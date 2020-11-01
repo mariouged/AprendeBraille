@@ -1,10 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.comoelagua.android.braille.ResultsExercisesActivity">
+    android:orientation="vertical" >
 
-    <include layout="@layout/content_results_exercises" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-</android.support.design.widget.CoordinatorLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="@string/okLabel"
+            android:textSize="18dp"
+            android:layout_margin="5dp"
+            android:width="100dp"/>
+
+        <TextView android:id="@+id/okValue"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/okLabel"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_margin="5dp"
+            android:background="#1bf429"
+            android:width="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_margin="5dp"
+            android:text="@string/failLabel"
+            android:width="100dp" />
+
+        <TextView android:id="@+id/failValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/failLabel"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_margin="5dp"
+            android:background="#ee1616"
+            android:width="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="@string/timeLabel"
+            android:textSize="18dp"
+            android:layout_margin="5dp"
+            android:width="100dp"/>
+
+        <TextView android:id="@+id/timeValue"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/timeLabel"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_margin="5dp"
+            android:width="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_margin="5dp"
+            android:text="@string/bestTimeLabel"
+            android:width="100dp" />
+
+        <TextView android:id="@+id/bestTimeValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bestTimeLabel"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_margin="5dp"
+            android:width="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="@string/review" />
+
+        <ListView
+            android:id="@+id/charactersErrorsList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:scrollbars="vertical"
+            android:layout_gravity="fill_vertical"
+            android:layout_alignParentTop="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -21,6 +21,7 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.media.AudioManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.speech.tts.TextToSpeech;
@@ -213,9 +214,20 @@ public abstract class ExercisesActivity extends AppCompatActivity implements Exe
         if (text.isEmpty()) {
             return;
         }
-        Bundle alarmBundle = new Bundle();
-        alarmBundle.putString(TextToSpeech.Engine.KEY_PARAM_STREAM, String.valueOf(AudioManager.STREAM_ALARM));
-        textToSpeech.speak(text, TextToSpeech.QUEUE_FLUSH, alarmBundle, null);
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+            hashAlarm = new HashMap();
+            hashAlarm.put(
+                TextToSpeech.Engine.KEY_PARAM_STREAM,
+                String.valueOf(AudioManager.STREAM_ALARM)
+            );
+            textToSpeech.speak(text, TextToSpeech.QUEUE_FLUSH, hashAlarm);
+        } else {
+            Bundle alarmBundle = new Bundle();
+            alarmBundle.putString(
+                TextToSpeech.Engine.KEY_PARAM_STREAM, String.valueOf(AudioManager.STREAM_ALARM)
+            );
+            textToSpeech.speak(text, TextToSpeech.QUEUE_FLUSH, alarmBundle, null);
+        }
     }
 
 }

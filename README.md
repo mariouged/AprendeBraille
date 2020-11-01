@@ -1,7 +1,7 @@
 ```
 Aprende Braille.
-
 La mejor manera de aprender es practicando.
+Version 1.7
 
 El sistema Braille es un alfabeto, apartir del signo generador
 1 4
@@ -53,5 +53,4 @@ No requiere ningún permiso, no se recoge ni se envía ninguna información del 
 Puedes usarla en cualquier momento
 , no necesita conexión a internet por lo que no te consumirá datos.
 
-Version 1.6
 ```
