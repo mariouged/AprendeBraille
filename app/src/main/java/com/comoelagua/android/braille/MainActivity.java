@@ -54,14 +54,14 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == R.id.actionHelp) {
-            startActivity(new Intent(this, HelpActivity.class));
-            return true;
-        } else if (item.getItemId() == R.id.actionAlphabet) {
+        if (item.getItemId() == R.id.actionAlphabet) {
             startActivity(new Intent(this, AlphabetActivity.class));
             return true;
         } else if (item.getItemId() == R.id.actionSettings) {
             startActivity(new Intent(this, SettingsActivity.class));
+            return true;
+        } else if (item.getItemId() == R.id.actionHelp) {
+            startActivity(new Intent(this, HelpActivity.class));
             return true;
         }/* else if (item.getItemId() == R.id.testFont) {
             startActivity(new Intent(this, CharactersActivity.class));

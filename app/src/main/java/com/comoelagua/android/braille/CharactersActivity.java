@@ -27,11 +27,7 @@ public class CharactersActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_characters);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         ListView charactersList = (ListView) findViewById(R.id.charactersList);
         charactersList.setAdapter(new CharactersAdapter(this));
     }

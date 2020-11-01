@@ -80,7 +80,62 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:text="@string/sloganParagraph"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textIsSelectable="true"
+                android:padding="10dp"
+                android:paddingTop="20dp"
+                android:focusable="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/privacyPolicyShortParagraph"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textIsSelectable="true"
+                android:padding="10dp"
+                android:paddingTop="20dp"
+                android:focusable="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:text="@string/mainParagraph"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textIsSelectable="true"
+                android:padding="10dp"
+                android:paddingTop="20dp"
+                android:focusable="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/helpParagraph"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textIsSelectable="true"
+                android:padding="10dp"
+                android:paddingTop="20dp"
+                android:focusable="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/privacyPolicyLongParagraph"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textIsSelectable="true"
+                android:padding="10dp"
+                android:paddingTop="20dp"
+                android:focusable="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/licenseParagraph"
                 android:textSize="18dp"
                 android:textColor="#000000"
                 android:textIsSelectable="true"
