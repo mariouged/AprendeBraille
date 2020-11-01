@@ -50,11 +50,9 @@
     <string name="bestTimeLabel">Mejor</string>
     <string name="title_activity_help">Ayuda</string>
     <string name="sloganParagraph">
-        \n
         \nAPRENDE BRAILLE
         \nLa mejor manera de aprender es practicando.
         \nVersion 1.7
-        \n
     </string>
     <string name="mainParagraph">
         \nALFABETO BRAILLE
@@ -75,14 +73,12 @@
         \n3 6
         \n
         \nRepasa todo el abecedario pulsando el botón alfabeto o en el menú alfabeto.
-        \n
     </string>
     <string name="privacyPolicyShortParagraph">
         \nPOLÍTICA DE PRIVACIDAD DE APRENDE BRAILLE APP ANDROID
         \nNo requiere ningún permiso, no se recoge ni se envía ninguna información del usuario ni del dispositivo.
         \nNo se recolecta ningún dato personal.
         \nNo se envía ninguna información a internet, ni a servidores propios ni de terceros.
-        \n
     </string>
     <string name="privacyPolicyLongParagraph">
         \nEsta política de privacidad simplemente te informa que esta app
@@ -96,7 +92,6 @@
         \nLa política de privacidad es pública en el siguiente enlace: https://raw.githubusercontent.com/mariouged/AprendeBraille/main/politica-privacidad
         \ny el usuario puede leerla en la pantalla principal
         \nNo se recoge ni transmite ningún datos de caracter personal, ni dispositivo , ni sensible y tampoco se comparten con ningún tercero.
-        \n
     </string>
     <string name="helpParagraph">
         \nLa aplicación, contiene el alfabeto braille en Español.
@@ -127,7 +122,6 @@
         \n- Solo en Español
         \n
         \nPuedes usarla en cualquier momento, no necesita conexión a internet por lo que no te consumirá datos.
-        \n
     </string>
     <string name="licenseParagraph">
         \nLICENSE
@@ -144,7 +138,6 @@
         \nalong with this program.  If not, see http://www.gnu.org/licenses/
         \n
         \nContact: mario.ugedo@gmail.com
-        \n
     </string>
     <string name="phraseExample">El perro de san roque no tiene rabo porque Ramón Ramirez se lo ha cortado</string>
     <string name="title_activity_numbers_exercises">Ejercicios de números</string>
