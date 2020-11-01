@@ -50,15 +50,16 @@
     <string name="bestTimeLabel">Mejor</string>
     <string name="title_activity_help">Ayuda</string>
     <string name="mainParagraph">
-        \nAprende Braille.
+        \nAPRENDE BRAILLE
         \nLa mejor manera de aprender es practicando.
         \nVersion 1.7
         \n
         \nPOLÍTICA DE PRIVACIDAD DE APRENDE BRAILLE APP ANDROID
         \nNo requiere ningún permiso, no se recoge ni se envía ninguna información del usuario ni del dispositivo.
-        \nLa política de privacidad es pública en el siguiente enlace: https://raw.githubusercontent.com/mariouged/com.comoelagua.android.braille/master/politica-privacidad
+        \nLa política de privacidad es pública en el siguiente enlace: https://raw.githubusercontent.com/mariouged/AprendeBraille/main/politica-privacidad
         \nNo se envía ninguna información a internet, ni a servidores propios ni de terceros.
         \n
+        \nALFABETO BRAILLE
         \nEl sistema Braille es un alfabeto, apartir del signo generador
         \n1 4
         \n2 5
@@ -91,12 +92,12 @@
         \nSimplemente la app intenta que puedas apreder braille fácilmente
         \ny tengas una chuleta Braille a mano por si fuera necesario.
         \n
-        \nLa política de privacidad es pública en el siguiente enlace: https://raw.githubusercontent.com/mariouged/com.comoelagua.android.braille/master/politica-privacidad
+        \nLa política de privacidad es pública en el siguiente enlace: https://raw.githubusercontent.com/mariouged/AprendeBraille/main/politica-privacidad
         \ny el usuario puede leerla en la pantalla principal
         \nNo se recoge ni transmite ningún datos de caracter personal, ni dispositivo , ni sensible y tampoco se comparten con ningún tercero.
     </string>
     <string name="helpParagraph">
-        \nAprende Braille.
+        \nAPRENDE BRAILLE
         \nLa mejor manera de aprender es practicando.
         \nVersion 1.7
         \n
@@ -104,6 +105,7 @@
         Con los ejercicios de palabras terminarás de aprender el alfabeto.
         Para el nivel más avanzado haz ejercicios de frases.
         \n
+        \nALFABETO BRAILLE
         \nEl sistema Braille es un alfabeto, apartir del signo generador
         \n1 4
         \n2 5
