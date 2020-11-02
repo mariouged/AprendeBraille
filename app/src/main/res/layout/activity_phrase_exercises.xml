@@ -29,12 +29,14 @@
 
         <ScrollView
             android:layout_width="wrap_content"
-            android:layout_height="170dp"
-            android:scrollbars="vertical"
+            android:layout_height="match_parent"
             android:lines="4"
             android:maxLines="6"
-            android:scrollIndicators="right">
-            <TextView android:id="@+id/ask"
+            android:scrollIndicators="right"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:id="@+id/ask"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/phraseExample"
@@ -47,26 +49,30 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <EditText android:id="@+id/answer"
-            android:layout_width="241dp"
-            android:layout_height="wrap_content"
+        <EditText
+            android:id="@+id/answer"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
             android:textColor="#000000"
-            android:textSize="36dp"
             android:contentDescription="@string/answerDescription"
             android:scrollbars="vertical"
-            android:width="300dp"
+            android:ems="3"
             android:inputType="text"
             android:imeOptions="actionNext" />
 
-        <Button android:id="@+id/next"
+        <Button
+            android:id="@+id/next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:background="@color/nextButton"
-            android:text="@string/next"
-            android:contentDescription="@string/nextDescription" />
+            android:contentDescription="@string/nextDescription"
+            android:text="@string/next" />
+
     </LinearLayout>
+
+
 
 </LinearLayout>

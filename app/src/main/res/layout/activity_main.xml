@@ -22,6 +22,7 @@
                 android:id="@+id/showAlphabet"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="left"
                 android:text="@string/alphabet"
                 android:contentDescription="@string/alphabetDescription"
                 android:onClick="openAlphabetActivity"
@@ -33,6 +34,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="right"
                 android:text="@string/charactersExercises"
                 android:contentDescription="@string/charactersExercisesDescription"
                 android:onClick="openCharactersExercises"
