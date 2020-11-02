@@ -1,18 +1,14 @@
 <resources>
     <string name="app_name">Aprende Braille</string>
-
     <string name="action_settings">Settings</string>
     <string name="actionSettings">Ajustes</string>
-
     <string name="alphabet">Alfabeto</string>
     <string name="alphabetDescription">Alfabeto Braille, todo el abecedario</string>
     <string name="exercises">Ejercicios</string>
-
     <string name="characters">Caracteres</string>
     <string name="charactersExercises">Ejercicios de letras</string>
     <string name="charactersExercisesDescription">Ejercicios de letras, test de primer nivel, consiste en un test dónde se muestra una letra en Braille y hay que introducir la letra leida</string>
     <string name="title_activity_characters_exercises">Ejercicios de letras</string>
-
     <string name="title_activity_exercises">Ejercicios</string>
     <string name="ask_label">Pregunta</string>
     <string name="answerDescription">Introduce el texto que has leido arriba</string>
@@ -21,18 +17,20 @@
     <string name="nextDescription">Pulsa siguiente para comprobar y continuar</string>
     <string name="answerSuccess">Bien</string>
     <string name="answerError">Error</string>
-
     <string name="title_activity_alphabet">Alfabeto</string>
     <string name="wordExercises">Ejercicios de palabras</string>
     <string name="wordExercisesDescription">Ejercicios de palabras, test de segundo nivel, test de palabras en Braille, debes leer e introducir la palabra</string>
     <string name="title_activity_word_exercises">Ejercicios de palabras</string>
+    <string name="character_label">Letra</string>
     <string name="word_label">Palabra</string>
+    <string name="phrase_label">Frase</string>
     <string name="check">Comprobar</string>
     <string name="result">Resultados</string>
     <string name="phraseExercises">Ejercicios de frases</string>
     <string name="phraseExercisesDescription">Ejercicios de frases, test de tercer nivel, introduce la frase que has leído en Braille</string>
     <string name="title_activity_phrase_exercises">Ejercicios de frases</string>
     <string name="title_activity_characters">Test caracteres ascii</string>
+    <string name="title_activity_font_test">Font test caracteres ascii</string>
     <string name="actionHelp">Ayuda</string>
     <string name="actionAlphabet">Alfabeto</string>
     <string name="title_activity_results_exercises">Resultados del ejercicio</string>
@@ -40,7 +38,7 @@
     <string name="failLabel">Falladas</string>
     <string name="review">Repasar los siguientes caracteres</string>
     <string name="resulNoErrors">No has cometido ningún fallo, pasa al siguiente nivel</string>
-    <string name="testFont">test font</string>
+    <string name="fontTest">Font test</string>
     <string name="sdk_dialog_message">Versión de android no soportada</string>
     <string name="sdk_dialog_title">API version</string>
     <string name="phrase">Frase</string>

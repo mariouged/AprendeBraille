@@ -14,7 +14,7 @@
         <TextView android:id="@+id/wordLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/word_label" />
+            android:text="@string/phrase_label" />
 
         <TextView android:id="@+id/askNumber"
             android:layout_width="wrap_content"
@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="170dp"
             android:scrollbars="vertical"
-            android:lines="3"
+            android:lines="4"
             android:maxLines="6"
             android:scrollIndicators="right">
             <TextView android:id="@+id/ask"

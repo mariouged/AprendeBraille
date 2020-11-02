@@ -24,7 +24,7 @@ public class CharactersExercisesActivity extends ExercisesActivity {
 
     @Override
     public int getContentView() {
-        return R.layout.activity_character_exercises;
+        return R.layout.activity_characters_exercises;
     }
 
     @Override

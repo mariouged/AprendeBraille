@@ -16,17 +16,17 @@
 package com.comoelagua.android.braille;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
+
 import android.os.Bundle;
 import android.widget.ListView;
 import com.comoelagua.android.braille.adapter.CharactersAdapter;
 
-public class CharactersActivity extends AppCompatActivity {
+public class FontTestActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_characters);
+        setContentView(R.layout.activity_font_test_characters);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         ListView charactersList = (ListView) findViewById(R.id.charactersList);
         charactersList.setAdapter(new CharactersAdapter(this));
