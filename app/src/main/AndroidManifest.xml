@@ -2,10 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.comoelagua.android.braille">
 
-    <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="30" />
-
     <application
         android:name=".BrailleApplication"
         android:allowBackup="true"

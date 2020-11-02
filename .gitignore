@@ -89,3 +89,6 @@ lint/tmp/
 
 # Android Studio
 .idea
+
+# apk
+app/release
