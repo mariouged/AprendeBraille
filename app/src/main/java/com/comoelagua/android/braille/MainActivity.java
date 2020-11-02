@@ -34,15 +34,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        Button showAlphabet = (Button) findViewById(R.id.showAlphabet);
-        showAlphabet.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, AlphabetActivity.class));
-            }
-        });
-
     }
 
     @Override
@@ -69,6 +60,10 @@ public class MainActivity extends AppCompatActivity {
         }*/
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void openAlphabetActivity(View view) {
+        startActivity(new Intent(this, AlphabetActivity.class));
     }
 
     public void openCharactersExercises(View view) {

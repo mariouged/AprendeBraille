@@ -24,6 +24,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/alphabet"
                 android:contentDescription="@string/alphabetDescription"
+                android:onClick="openAlphabetActivity"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
