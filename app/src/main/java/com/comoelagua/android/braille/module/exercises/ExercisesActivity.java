@@ -148,7 +148,8 @@ public abstract class ExercisesActivity extends AppCompatActivity implements Exe
             return;
         }
         String answer = answerEditText.getText().toString();
-        if (wordCompare.checkEquals(currentWord.getWordToCompare(), answer)) {
+        String answerEnglishApostropheToBrailleDot = answer.replaceAll("'", ".");
+        if (wordCompare.checkEquals(currentWord.getWordToCompare(), answerEnglishApostropheToBrailleDot)) {
             ok++;
             if (prefSpeechOnAnswerOk) speech(R.string.answerSuccess, null);
             continueAsk();

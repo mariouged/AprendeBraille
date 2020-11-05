@@ -11,7 +11,7 @@
     <item android:id="@+id/actionHelp" android:title="@string/actionHelp"
         android:orderInCategory="30"
         app:showAsAction="never" />
-    <!--<item android:id="@+id/fontTest" android:title="@string/fontTest"
-        android:orderInCategory="40" app:showAsAction="never" />-->
+    <item android:id="@+id/fontTest" android:title="@string/fontTest"
+        android:orderInCategory="40" app:showAsAction="never" />
 
 </menu>

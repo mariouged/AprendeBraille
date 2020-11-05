@@ -54,11 +54,10 @@ public class MainActivity extends AppCompatActivity {
         } else if (item.getItemId() == R.id.actionHelp) {
             startActivity(new Intent(this, HelpActivity.class));
             return true;
-        }/* else if (item.getItemId() == R.id.fontTest) {
+        } else if (item.getItemId() == R.id.fontTest) {
             startActivity(new Intent(this, FontTestActivity.class));
             return true;
-        }*/
-
+        }
         return super.onOptionsItemSelected(item);
     }
 
