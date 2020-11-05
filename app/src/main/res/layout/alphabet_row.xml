@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="left"
         android:text="a"
-        android:textColor="#000000"
         android:textSize="48dp"
         android:gravity="right" />
 
@@ -24,7 +23,6 @@
         android:layout_gravity="right"
         android:layout_marginLeft="10dp"
         android:text="A"
-        android:textColor="#000000"
         android:textSize="64dp" />
 
 </LinearLayout>

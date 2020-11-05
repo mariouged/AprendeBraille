@@ -28,8 +28,7 @@
                 android:onClick="openAlphabetActivity"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp"
-                android:background="#92c755"/>
+                android:layout_marginRight="10dp"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -38,11 +37,10 @@
                 android:text="@string/charactersExercises"
                 android:contentDescription="@string/charactersExercisesDescription"
                 android:onClick="openCharactersExercises"
-                android:background="#92c755"
                 android:padding="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp" />
+                android:layout_marginRight="10dp"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -50,11 +48,10 @@
                 android:text="@string/wordExercises"
                 android:contentDescription="@string/wordExercisesDescription"
                 android:onClick="openWordExercises"
-                android:background="#92c755"
                 android:padding="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp" />
+                android:layout_marginRight="10dp"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -62,11 +59,10 @@
                 android:text="@string/numbersExercises"
                 android:contentDescription="@string/numbersExercisesDescription"
                 android:onClick="openNumbersExercises"
-                android:background="#92c755"
                 android:padding="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp" />
+                android:layout_marginRight="10dp"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -77,15 +73,13 @@
                 android:padding="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp"
-                android:background="#92c755" />
+                android:layout_marginRight="10dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="@string/sloganParagraph"
                 android:textSize="18dp"
-                android:textColor="#000000"
                 android:textIsSelectable="true"
                 android:padding="10dp"
                 android:paddingTop="20dp"
@@ -96,7 +90,6 @@
                 android:layout_height="match_parent"
                 android:text="@string/privacyPolicyShortParagraph"
                 android:textSize="18dp"
-                android:textColor="#000000"
                 android:textIsSelectable="true"
                 android:padding="10dp"
                 android:paddingTop="20dp"
@@ -107,7 +100,6 @@
                 android:layout_height="match_parent"
                 android:text="@string/mainParagraph"
                 android:textSize="18dp"
-                android:textColor="#000000"
                 android:textIsSelectable="true"
                 android:padding="10dp"
                 android:paddingTop="20dp"
@@ -118,7 +110,6 @@
                 android:layout_height="match_parent"
                 android:text="@string/helpParagraph"
                 android:textSize="18dp"
-                android:textColor="#000000"
                 android:textIsSelectable="true"
                 android:padding="10dp"
                 android:paddingTop="20dp"
@@ -129,7 +120,6 @@
                 android:layout_height="match_parent"
                 android:text="@string/privacyPolicyLongParagraph"
                 android:textSize="18dp"
-                android:textColor="#000000"
                 android:textIsSelectable="true"
                 android:padding="10dp"
                 android:paddingTop="20dp"
@@ -140,7 +130,6 @@
                 android:layout_height="match_parent"
                 android:text="@string/licenseParagraph"
                 android:textSize="18dp"
-                android:textColor="#000000"
                 android:textIsSelectable="true"
                 android:padding="10dp"
                 android:paddingTop="20dp"
