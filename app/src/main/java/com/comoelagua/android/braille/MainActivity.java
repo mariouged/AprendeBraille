@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        checkSdk();
     }
 
     @Override
@@ -84,8 +85,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean checkSdk() {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setMessage(R.string.sdk_dialog_message)
-                    .setTitle(R.string.sdk_dialog_title);
+            builder.setMessage(R.string.sdk_dialog_message).setTitle(R.string.sdk_dialog_title);
             AlertDialog dialog = builder.create();
             dialog.show();
             return false;

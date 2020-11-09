@@ -32,6 +32,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.comoelagua.android.braille.AlphabetActivity;
 import com.comoelagua.android.braille.R;
@@ -168,8 +169,8 @@ public abstract class ExercisesActivity extends AppCompatActivity implements Exe
             showResult();
             return;
         }
-
         showAsk(wordsList.get(askNumber));
+        Toast.makeText(getApplicationContext(), R.string.answerSuccess, Toast.LENGTH_SHORT).show();
     }
 
     public void answerFail() {
@@ -181,11 +182,8 @@ public abstract class ExercisesActivity extends AppCompatActivity implements Exe
             }
         }
         resultExercise.addAllcharactersErrorsList(wordCompare.getCharactersErrorsList());
-
-        nextButton.setBackgroundResource(R.color.nextButtonFail);
-        //answerEditText.setEnabled(false); // on disabled EditText red char no show, all text color : grey
-            nextButton.setText(R.string.nextContinue);
-
+        nextButton.setText(R.string.nextContinue);
+        Toast.makeText(getApplicationContext(), R.string.answerError, Toast.LENGTH_SHORT).show();
     }
 
     public void showResult() {
