@@ -102,9 +102,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void openBrailleCheatSheetAppOnGooglePlay() {
         try {
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + "com.comoelagua.android.braille")));
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + "org.comoelagua.braillecheatsheet")));
         } catch (android.content.ActivityNotFoundException exception) {
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + "com.comoelagua.android.braille")));
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + "org.comoelagua.braillecheatsheet")));
         }
     }
 }
