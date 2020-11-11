@@ -29,7 +29,7 @@
 
         <ScrollView
             android:layout_width="wrap_content"
-            android:layout_height="290dp"
+            android:layout_height="match_parent"
             android:lines="5"
             android:scrollIndicators="right"
             android:scrollbars="vertical">
@@ -40,8 +40,7 @@
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="20dp"
                 android:text="@string/phraseExample"
-                android:textSize="48dp"
-             />
+                android:textSize="48dp" />
 
         </ScrollView>
 
@@ -49,31 +48,29 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="192dp"
+        android:layout_height="99dp"
         android:orientation="vertical">
 
         <EditText
             android:id="@+id/answer"
             android:layout_width="match_parent"
-            android:layout_height="136dp"
+            android:layout_height="match_parent"
             android:contentDescription="@string/answerDescription"
             android:ems="3"
             android:imeOptions="actionNext"
             android:inputType="text"
-            android:scrollbars="vertical"
-         />
-
-        <Button
-            android:id="@+id/next"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:background="@color/nextButton"
-            android:contentDescription="@string/nextDescription"
-            android:text="@string/next" />
+            android:scrollbars="vertical" />
 
     </LinearLayout>
 
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_gravity="right"
+        android:background="@color/nextButton"
+        android:contentDescription="@string/nextDescription"
+        android:text="@string/next" />
 
 
 </LinearLayout>
