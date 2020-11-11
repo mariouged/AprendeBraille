@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="charactersIgnore">
-        <item>cap.</item>
-        <item>\u0027</item>
-        <item>num.</item>
+        <item>capital</item>
+        <item>apostrophe\u0027</item>
+        <item>numeric</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -19,16 +19,17 @@
         <item>:</item>
         <item>.</item>
         <item>-</item>
+        <item>\u003F</item>
+        <item>!</item>
         <item>(</item>
         <item>)</item>
-        <item>!</item>
         <item>+</item>
         <item>-</item>
         <item>multipli x</item>
-        <item>multipli .</item>
+        <item>multipli dot</item>
         <item>division</item>
-        <item>&gt;</item>
-        <item>&lt;</item>
+        <item>\u003E</item>
+        <item>\u003C</item>
         <item>=</item>
         <item>cent</item>
         <item>dollar</item>

@@ -27,8 +27,8 @@
         <item>x</item>
         <item>y</item>
         <item>z</item>
-        <item>_</item>
-        <item>.</item>
+        <item>^</item>
+        <item>\u0027</item>
         <item>#</item>
         <item>#a</item>
         <item>#b</item>
@@ -43,21 +43,21 @@
         <item>,</item>
         <item>;</item>
         <item>:</item>
-        <item>*</item>
+        <item>.</item>
         <item>-</item>
-        <item>[</item>
+        <item>\u003F</item>
         <item>!</item>
-        <item>(</item>
-        <item>)</item>
-        <item>\u0040+</item>
+        <item>H</item>
+        <item>A</item>
+        <item>\u0040!</item>
         <item>\u0040-</item>
-        <item>\u0040\u003C</item>
-        <item>\u0040*</item>
+        <item>\u0040\u003F</item>
+        <item>\u0040.</item>
         <item>\u0040/</item>
-        <item>\u0040)</item>
+        <item>`A</item>
+        <item>`H</item>
         <item>\u0040(</item>
-        <item>\u0040=</item>
-        <item>\u0027c</item>
-        <item>\u0027s</item>
+        <item>`c</item>
+        <item>`s</item>
     </string-array>
 </resources>

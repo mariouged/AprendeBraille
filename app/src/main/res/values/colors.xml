@@ -8,5 +8,4 @@
     <color name="black">#000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="nextButton">#4CAF50</color>
-    <color name="nextButtonFail">#F44336</color>
 </resources>

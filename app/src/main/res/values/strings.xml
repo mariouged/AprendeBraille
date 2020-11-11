@@ -1,16 +1,11 @@
 <resources>
     <string name="app_name">Learn Braille</string>
-    <string name="action_settings">Settings</string>
     <string name="actionSettings">Settings</string>
     <string name="alphabet">Alphabet</string>
     <string name="alphabetDescription">Braille alphabet, the whole alphabet</string>
-    <string name="exercises">Exercises</string>
-    <string name="characters">Chars</string>
     <string name="charactersExercises">Chars exercises</string>
     <string name="charactersExercisesDescription">Chars exercises, first level test, consists of a test where a char is shown in Braille and the char read must be entered</string>
     <string name="title_activity_characters_exercises">Chars exercises</string>
-    <string name="title_activity_exercises">Exercises</string>
-    <string name="ask_label">Question</string>
     <string name="answerDescription">Enter the text you have read above</string>
     <string name="next">Next</string>
     <string name="nextContinue">Continue</string>
@@ -24,12 +19,9 @@
     <string name="character_label">Char</string>
     <string name="word_label">Word</string>
     <string name="phrase_label">Sentence</string>
-    <string name="check">Check</string>
-    <string name="result">Results</string>
     <string name="phraseExercises">Sentences exercises</string>
     <string name="phraseExercisesDescription">Sentences exercises, third level test, enter the Sentence you have read in Braille</string>
     <string name="title_activity_phrase_exercises">Sentences exercises</string>
-    <string name="title_activity_characters">Test characters ascii</string>
     <string name="title_activity_font_test">Font test characters ascii</string>
     <string name="actionHelp">Help</string>
     <string name="actionAlphabet">Alphabet</string>

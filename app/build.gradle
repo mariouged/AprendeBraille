@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.comoelagua.android.braille"
-        minSdkVersion 14
+        minSdkVersion 16
         targetSdkVersion 30
 
         versionCode 20
