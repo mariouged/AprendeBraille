@@ -27,8 +27,7 @@
                 android:layout_marginRight="10dp"
                 android:contentDescription="@string/alphabetDescription"
                 android:onClick="openAlphabetActivity"
-                android:text="@string/alphabet"
-                android:textColor="@color/white" />
+                android:text="@string/alphabet" />
 
             <Button
                 android:layout_width="match_parent"
@@ -39,8 +38,7 @@
                 android:padding="5dp"
                 android:contentDescription="@string/charactersExercisesDescription"
                 android:onClick="openCharactersExercises"
-                android:text="@string/charactersExercises"
-                android:textColor="@color/white" />
+                android:text="@string/charactersExercises" />
 
             <Button
                 android:layout_width="match_parent"
@@ -51,8 +49,7 @@
                 android:padding="5dp"
                 android:contentDescription="@string/wordExercisesDescription"
                 android:onClick="openWordExercises"
-                android:text="@string/wordExercises"
-                android:textColor="@color/white" />
+                android:text="@string/wordExercises" />
 
             <Button
                 android:layout_width="match_parent"
@@ -63,8 +60,7 @@
                 android:padding="5dp"
                 android:contentDescription="@string/numbersExercisesDescription"
                 android:onClick="openNumbersExercises"
-                android:text="@string/numbersExercises"
-                android:textColor="@color/white" />
+                android:text="@string/numbersExercises" />
 
             <Button
                 android:layout_width="match_parent"
@@ -75,8 +71,7 @@
                 android:padding="5dp"
                 android:contentDescription="@string/phraseExercisesDescription"
                 android:onClick="openPhraseExercises"
-                android:text="@string/phraseExercises"
-                android:textColor="@color/white" />
+                android:text="@string/phraseExercises" />
 
             <Button
                 android:layout_width="match_parent"
@@ -86,9 +81,8 @@
                 android:layout_marginRight="10dp"
                 android:padding="5dp"
                 android:contentDescription="@string/cheatSheetDescription"
-                android:onClick="openBrailleCheatSheetAppOnGooglePlay"
-                android:text="@string/cheatSheet"
-                android:textColor="@color/white" />
+                android:onClick="openBrailleCheatSheet"
+                android:text="@string/InviteMeCoffee" />
 
             <TextView
                 android:layout_width="wrap_content"

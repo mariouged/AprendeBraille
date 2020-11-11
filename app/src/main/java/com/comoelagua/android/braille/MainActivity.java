@@ -58,6 +58,9 @@ public class MainActivity extends AppCompatActivity {
         } else if (item.getItemId() == R.id.fontTest) {
             startActivity(new Intent(this, FontTestActivity.class));
             return true;
+        } else if (item.getItemId() == R.id.appBrailleCheatSheetGooglePlay) {
+            openBrailleCheatSheetAppOnGooglePlay();
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }
@@ -93,7 +96,11 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    public void openBrailleCheatSheetAppOnGooglePlay(View view) {
+    public void openBrailleCheatSheet(View view) {
+        openBrailleCheatSheetAppOnGooglePlay();
+    }
+
+    public void openBrailleCheatSheetAppOnGooglePlay() {
         try {
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + "com.comoelagua.android.braille")));
         } catch (android.content.ActivityNotFoundException exception) {

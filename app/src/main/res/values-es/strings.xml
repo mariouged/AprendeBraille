@@ -131,6 +131,6 @@
     <string name="prefSpeechOnAnswerFail">Hablar en respuesta fallada</string>
     <string name="prefSpeechOnAnswerFailSum">Reproduce por voz el mensaje: Error</string>
     <string name="title_activity_settings">Ajustes</string>
-    <string name="cheatSheet">Aplicación Hoja de trucos Braille</string>
-    <string name="cheatSheetDescription">Hoja de trucos Braille en la Play Store</string>
+    <string name="InviteMeCoffee">Invitame a un café</string>
+    <string name="cheatSheetDescription">Invítame a un café comprando la App Chuleta Braille en la Play Store</string>
 </resources>
