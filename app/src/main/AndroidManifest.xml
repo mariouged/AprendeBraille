@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.comoelagua.android.braille">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".BrailleApplication"
         android:allowBackup="true"

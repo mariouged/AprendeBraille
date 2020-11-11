@@ -132,4 +132,6 @@
     <string name="prefSpeechOnAnswerFail">Speech in failed response</string>
     <string name="prefSpeechOnAnswerFailSum">Play the message by voice: Error</string>
     <string name="title_activity_settings">Settings</string>
+    <string name="cheatSheet">App Braille Cheat Sheet</string>
+    <string name="cheatSheetDescription">Braille Cheat Sheet App on Play Store</string>
 </resources>
