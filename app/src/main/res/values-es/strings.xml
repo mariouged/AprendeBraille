@@ -66,22 +66,8 @@
     </string>
     <string name="privacyPolicyShortParagraph">
         \nPOLÍTICA DE PRIVACIDAD DE APRENDE BRAILLE APP ANDROID
-        \nNo requiere ningún permiso, no se recoge ni se envía ninguna información del usuario ni del dispositivo.
-        \nNo se recolecta ningún dato personal.
-        \nNo se envía ninguna información a internet, ni a servidores propios ni de terceros.
-    </string>
-    <string name="privacyPolicyLongParagraph">
-        \nEsta política de privacidad simplemente te informa que esta app
-        \nno recolecta información personal ni del dispositivo
-        \ny que no se envía ninguna información a internet,
-        \nni a servidores propios ni de terceros.
-        \nNo requiere conexión a internet, ni ningún permiso.
-        \nSimplemente la app intenta que puedas apreder braille fácilmente
-        \ny tengas una chuleta Braille a mano por si fuera necesario.
-        \n
+        \nNingún dato personal se recopila.
         \nLa política de privacidad es pública en el siguiente enlace: https://raw.githubusercontent.com/mariouged/AprendeBraille/main/politica-privacidad
-        \ny el usuario puede leerla en la pantalla principal
-        \nNo se recoge ni transmite ningún datos de caracter personal, ni dispositivo , ni sensible y tampoco se comparten con ningún tercero.
     </string>
     <string name="helpParagraph">
         \nLa aplicación, contiene el alfabeto braille.
@@ -115,8 +101,7 @@
         \n- Signos operadores y comparación
         \n- Monedas y medidas
         \n- Signos especiales
-        \n
-        \nPuedes usarla en cualquier momento, no necesita conexión a internet por lo que no te consumirá datos.
+        \n- Traducir al francés
     </string>
     <string name="licenseParagraph">
         \nLICENSE

@@ -66,22 +66,8 @@
     </string>
     <string name="privacyPolicyShortParagraph">
         \nPRIVACY POLICY OF LEARN BRAILLE APP ANDROID
-        \nIt does not require any permission, no user or device information is collected or sent.
         \nNo personal data is collected.
-        \nNo information is sent to the internet, or to its own or third party servers.
-    </string>
-    <string name="privacyPolicyLongParagraph">
-        \nThis privacy policy simply informs you that this app
-        \ndoes not collect personal or device information
-        \nand that no information is sent to the internet,
-        \nneither to own servers nor to third parties.
-        \nIt does not require an internet connection, nor any permission.
-        \nThe app simply tries to make it easy for you to learn braille
-        \nand have a Braille cheat sheet on hand in case you need it.
-        \n
         \nThe privacy policy is public at the following link: https://raw.githubusercontent.com/mariouged/AprendeBraille/main/privacy-policy
-        \nand the user can read it on the main screen
-        \nNo personal, device, or sensitive data is collected or transmitted and it is not shared with any third party.
     </string>
     <string name="helpParagraph">
         \nThe application contains the braille alphabet.
@@ -116,8 +102,7 @@
         \n- Signs of operation and comparison
         \n- Currency and measurement
         \n- Special symbols
-        \n
-        \nYou can use it at any time, it does not need an internet connection so it will not consume data.
+        \n- Translate to french
     </string>
     <string name="licenseParagraph">
         \nLICENSE
@@ -135,7 +120,7 @@
         \n
         \nContact: mario.ugedo@gmail.com
     </string>
-    <string name="phraseExample">the rain in spain stays mainly in the plain</string>
+    <string name="phraseExample">the rain in spain stays mainly in the plain the rain in spain stays mainly in the plain</string>
     <string name="title_activity_numbers_exercises">Numbers exercises</string>
     <string name="numbersExercises">Numbers exercises</string>
     <string name="numbersExercisesDescription">Number exercises, another first-level test, consists of an exercise where a number is shown in Braille and the number read must be entered</string>
